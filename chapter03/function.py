@@ -4,9 +4,16 @@
 # @Date:   2014-04-02 21:31:54
 # @Email:  caizhenghai@gmail.com
 # @Last modified by:   forecho
-# @Last modified time: 2014-04-02 23:33:11
+# @Last modified time: 2014-04-02 23:37:40
+
+# def my_abs(x):
+# 	if x >= 0:
+# 		return x
+# 	else:
+# 		return -x
+
 def my_abs(x):
-	if not isinstance(x, (int, float)):
+    if not isinstance(x, (int, float)):
         raise TypeError('bad operand type')
     if x >= 0:
         return x
