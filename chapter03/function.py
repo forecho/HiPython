@@ -4,7 +4,7 @@
 # @Date:   2014-04-02 21:31:54
 # @Email:  caizhenghai@gmail.com
 # @Last modified by:   forecho
-# @Last modified time: 2014-04-02 23:37:40
+# @Last modified time: 2014-04-03 20:38:00
 
 # def my_abs(x):
 # 	if x >= 0:
@@ -14,6 +14,7 @@
 
 def my_abs(x):
     if not isinstance(x, (int, float)):
+    	# 如果参数个数不对
         raise TypeError('bad operand type')
     if x >= 0:
         return x

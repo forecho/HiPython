@@ -4,7 +4,7 @@
 # @Date:   2014-04-02 22:57:01
 # @Email:  caizhenghai@gmail.com
 # @Last modified by:   forecho
-# @Last modified time: 2014-04-02 23:03:51
+# @Last modified time: 2014-04-03 20:40:12
 # 可变参数
 
 # def calc(numbers):
@@ -15,5 +15,5 @@ def calc(*numbers):
     return sum
 
 
-# nums = [1, 2, 3]
-# calc(*nums)
+nums = [1, 2, 3]
+print calc(*nums)
